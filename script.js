@@ -98,3 +98,6 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+// Musik
+const musik = document.getElementById('musik');
+document.body.addEventListener('click', () => musik.play());
